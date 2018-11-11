@@ -14,6 +14,8 @@
 		182EA35B21989A7100A816B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182EA35921989A7100A816B4 /* LaunchScreen.storyboard */; };
 		182EA36621989A7100A816B4 /* GoVote_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EA36521989A7100A816B4 /* GoVote_Tests.swift */; };
 		182EA37121989A7100A816B4 /* GoVote_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182EA37021989A7100A816B4 /* GoVote_UITests.swift */; };
+		3926B7F62198A58F00FE5217 /* GoVote! in Resources */ = {isa = PBXBuildFile; fileRef = 3926B7F52198A58F00FE5217 /* GoVote! */; };
+		3926B7F82198A5F300FE5217 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3926B7F72198A5F300FE5217 /* NavigationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		182EA36C21989A7100A816B4 /* GoVote!UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GoVote!UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		182EA37021989A7100A816B4 /* GoVote_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoVote_UITests.swift; sourceTree = "<group>"; };
 		182EA37221989A7100A816B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3926B7F52198A58F00FE5217 /* GoVote! */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "GoVote!"; sourceTree = "<group>"; };
+		3926B7F72198A5F300FE5217 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +104,9 @@
 				182EA35021989A6F00A816B4 /* AppDelegate.swift */,
 				182EA35221989A6F00A816B4 /* ViewController.swift */,
 				182EA35421989A6F00A816B4 /* Main.storyboard */,
+				3926B7F52198A58F00FE5217 /* GoVote! */,
 				182EA35721989A7100A816B4 /* Assets.xcassets */,
+				3926B7F72198A5F300FE5217 /* NavigationViewController.swift */,
 				182EA35921989A7100A816B4 /* LaunchScreen.storyboard */,
 				182EA35C21989A7100A816B4 /* Info.plist */,
 			);
@@ -229,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3926B7F62198A58F00FE5217 /* GoVote! in Resources */,
 				182EA35B21989A7100A816B4 /* LaunchScreen.storyboard in Resources */,
 				182EA35821989A7100A816B4 /* Assets.xcassets in Resources */,
 				182EA35621989A6F00A816B4 /* Main.storyboard in Resources */,
@@ -256,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3926B7F82198A5F300FE5217 /* NavigationViewController.swift in Sources */,
 				182EA35321989A6F00A816B4 /* ViewController.swift in Sources */,
 				182EA35121989A6F00A816B4 /* AppDelegate.swift in Sources */,
 			);
