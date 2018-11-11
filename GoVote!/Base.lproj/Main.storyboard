@@ -145,6 +145,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="fN4-vE-q0N"/>
                     </view>
+                    <connections>
+                        <outlet property="pickerTextField" destination="Eiq-Bc-GBa" id="6i4-P4-Lwa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EZV-dm-ZcZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

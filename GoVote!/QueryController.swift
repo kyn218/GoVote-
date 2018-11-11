@@ -9,11 +9,13 @@
 import UIKit
 
 class QueryController: UIViewController {
-
+    @IBOutlet weak var pickerTextField : UITextField!;
+    let birthControlOptions = ["yes", "no"]
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        pickerTextField.loadDropdownData(data: birthControlOptions)
     }
 
     override func didReceiveMemoryWarning() {
